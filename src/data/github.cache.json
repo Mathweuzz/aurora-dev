@@ -1,0 +1,1763 @@
+{
+  "fetchedAt": "2025-08-24T01:53:50.883Z",
+  "user": "Mathweuzz",
+  "rate": {
+    "limit": 60,
+    "remaining": 54,
+    "reset": 1756003393
+  },
+  "repos": [
+    {
+      "id": 1043494026,
+      "name": "aurora-dev",
+      "full_name": "Mathweuzz/aurora-dev",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "HTML",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/aurora-dev",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2025-08-24T01:48:58Z",
+      "updated_at": "2025-08-24T01:49:01Z",
+      "created_at": "2025-08-24T01:19:15Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 1039314444,
+      "name": "CapivaraVM",
+      "full_name": "Mathweuzz/CapivaraVM",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/CapivaraVM",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2025-08-18T18:46:54Z",
+      "updated_at": "2025-08-18T18:46:57Z",
+      "created_at": "2025-08-17T00:10:47Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 1038124073,
+      "name": "Andorinha-Jobs",
+      "full_name": "Mathweuzz/Andorinha-Jobs",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/Andorinha-Jobs",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2025-08-14T20:36:47Z",
+      "updated_at": "2025-08-14T20:36:50Z",
+      "created_at": "2025-08-14T16:55:25Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 1036689947,
+      "name": "Ip-LMS",
+      "full_name": "Mathweuzz/Ip-LMS",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/Ip-LMS",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2025-08-13T21:39:52Z",
+      "updated_at": "2025-08-13T21:39:55Z",
+      "created_at": "2025-08-12T12:51:13Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 1037302713,
+      "name": "UrlShortener",
+      "full_name": "Mathweuzz/UrlShortener",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/UrlShortener",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2025-08-13T13:50:12Z",
+      "updated_at": "2025-08-13T13:50:15Z",
+      "created_at": "2025-08-13T11:19:10Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 1035587276,
+      "name": "brasa-http",
+      "full_name": "Mathweuzz/brasa-http",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/brasa-http",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2025-08-12T12:19:04Z",
+      "updated_at": "2025-08-12T12:19:05Z",
+      "created_at": "2025-08-10T17:59:21Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 965290183,
+      "name": "intruder",
+      "full_name": "Mathweuzz/intruder",
+      "description": "Clone of Burp Suite Intruder tool but with cuncurrency",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/intruder",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2025-04-12T21:19:29Z",
+      "updated_at": "2025-04-12T20:39:19Z",
+      "created_at": "2025-04-12T20:39:19Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 893471021,
+      "name": "montador-mips-usando-mips",
+      "full_name": "Mathweuzz/montador-mips-usando-mips",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "Assembly",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/montador-mips-usando-mips",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2024-11-24T15:04:47Z",
+      "updated_at": "2024-11-24T15:04:50Z",
+      "created_at": "2024-11-24T14:35:16Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 815984756,
+      "name": "Projeto-Final-TR2",
+      "full_name": "Mathweuzz/Projeto-Final-TR2",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "C++",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/Projeto-Final-TR2",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2024-07-09T18:38:06Z",
+      "updated_at": "2024-07-09T18:38:09Z",
+      "created_at": "2024-06-16T18:20:31Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 658746127,
+      "name": "Proj-final-EngSoft",
+      "full_name": "Mathweuzz/Proj-final-EngSoft",
+      "description": null,
+      "stargazers_count": 2,
+      "forks_count": 3,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/Proj-final-EngSoft",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-07-24T20:49:34Z",
+      "updated_at": "2023-10-21T20:01:37Z",
+      "created_at": "2023-06-26T12:07:24Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 643305227,
+      "name": "presenca-eng",
+      "full_name": "Mathweuzz/presenca-eng",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/presenca-eng",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-05-28T15:39:28Z",
+      "updated_at": "2023-10-21T20:01:36Z",
+      "created_at": "2023-05-20T18:32:13Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 670617795,
+      "name": "EXPLORER---ROCKETSEAT",
+      "full_name": "Mathweuzz/EXPLORER---ROCKETSEAT",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "HTML",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/EXPLORER---ROCKETSEAT",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-07-27T14:36:44Z",
+      "updated_at": "2023-07-27T14:28:57Z",
+      "created_at": "2023-07-25T13:01:02Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 662706273,
+      "name": "Analise-de-Noticias",
+      "full_name": "Mathweuzz/Analise-de-Noticias",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/Analise-de-Noticias",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-07-05T17:55:00Z",
+      "updated_at": "2023-07-05T17:55:00Z",
+      "created_at": "2023-07-05T17:54:59Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 659795050,
+      "name": "TR1",
+      "full_name": "Mathweuzz/TR1",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "C++",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/TR1",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-07-02T21:57:13Z",
+      "updated_at": "2023-06-28T15:16:37Z",
+      "created_at": "2023-06-28T15:16:29Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 655351873,
+      "name": "Movie-chatbot-AI",
+      "full_name": "Mathweuzz/Movie-chatbot-AI",
+      "description": null,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/Movie-chatbot-AI",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-07-08T17:30:55Z",
+      "updated_at": "2023-06-26T18:11:11Z",
+      "created_at": "2023-06-18T16:28:38Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 624515974,
+      "name": "EnGSw",
+      "full_name": "Mathweuzz/EnGSw",
+      "description": null,
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/EnGSw",
+      "homepage": "https://en-g-sw.vercel.app",
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-04-14T12:45:08Z",
+      "updated_at": "2023-05-12T12:32:48Z",
+      "created_at": "2023-04-06T16:35:31Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 605110056,
+      "name": "basic-in-python",
+      "full_name": "Mathweuzz/basic-in-python",
+      "description": "Making the basic programming language in python",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/basic-in-python",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-03-18T19:18:44Z",
+      "updated_at": "2023-04-18T10:44:52Z",
+      "created_at": "2023-02-22T13:19:35Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    },
+    {
+      "id": 594022928,
+      "name": "LINGUAGENS-DE-PROGRAMACAO",
+      "full_name": "Mathweuzz/LINGUAGENS-DE-PROGRAMACAO",
+      "description": "PROJETO DA DISCIPLINA",
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "language": "C",
+      "topics": [],
+      "html_url": "https://github.com/Mathweuzz/LINGUAGENS-DE-PROGRAMACAO",
+      "homepage": null,
+      "archived": false,
+      "disabled": false,
+      "pushed_at": "2023-02-11T15:26:06Z",
+      "updated_at": "2023-01-30T23:38:40Z",
+      "created_at": "2023-01-27T12:18:07Z",
+      "owner": {
+        "login": "Mathweuzz"
+      },
+      "visibility": "public"
+    }
+  ],
+  "events": [
+    {
+      "id": "53508831533",
+      "type": "PushEvent",
+      "created_at": "2025-08-18T18:46:55Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1039314444,
+        "push_id": 26212909532,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "a698594563d00e097178cf2dd94877f7c8af2d51",
+        "before": "020f1181f7f88fc1fe8866fae29f2208d33726ec",
+        "commits": [
+          {
+            "sha": "a698594563d00e097178cf2dd94877f7c8af2d51",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(interp): laço do bytecode (int, fluxo) + CLI --entry/--desc para método static sem args",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM/commits/a698594563d00e097178cf2dd94877f7c8af2d51"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53508265332",
+      "type": "PushEvent",
+      "created_at": "2025-08-18T18:32:14Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1039314444,
+        "push_id": 26212636437,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "020f1181f7f88fc1fe8866fae29f2208d33726ec",
+        "before": "067bf295db4777848a58f148895e306bdebca56f",
+        "commits": [
+          {
+            "sha": "020f1181f7f88fc1fe8866fae29f2208d33726ec",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(loader): classpath por diretórios, RuntimeClass e linking mínimo (ConstantValue e <clinit> detectado)",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM/commits/020f1181f7f88fc1fe8866fae29f2208d33726ec"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53458853539",
+      "type": "PushEvent",
+      "created_at": "2025-08-17T13:53:38Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1039314444,
+        "push_id": 26187743016,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "067bf295db4777848a58f148895e306bdebca56f",
+        "before": "cd1fb9f9c36bc2be78441b069d084697f117826b",
+        "commits": [
+          {
+            "sha": "067bf295db4777848a58f148895e306bdebca56f",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "test(runtime): corrigir expectativa de long 64b e adicionar caso negativo",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM/commits/067bf295db4777848a58f148895e306bdebca56f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53458806844",
+      "type": "PushEvent",
+      "created_at": "2025-08-17T13:50:16Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1039314444,
+        "push_id": 26187712582,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "cd1fb9f9c36bc2be78441b069d084697f117826b",
+        "before": "dba35c0f17db05b852aa28bc3b86499fc74d9e69",
+        "commits": [
+          {
+            "sha": "cd1fb9f9c36bc2be78441b069d084697f117826b",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(runtime): descriptors parser, Frame (locals+stack), StringPool e testes",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM/commits/cd1fb9f9c36bc2be78441b069d084697f117826b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53458674470",
+      "type": "PushEvent",
+      "created_at": "2025-08-17T13:40:49Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1039314444,
+        "push_id": 26187626249,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "dba35c0f17db05b852aa28bc3b86499fc74d9e69",
+        "before": "ff05157c982ed8a188e5077aa2215acfeb5ec120",
+        "commits": [
+          {
+            "sha": "dba35c0f17db05b852aa28bc3b86499fc74d9e69",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(classfile): parse de members e atributos (Code, LineNumberTable, SourceFile, ConstantValue)",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM/commits/dba35c0f17db05b852aa28bc3b86499fc74d9e69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53458231029",
+      "type": "PushEvent",
+      "created_at": "2025-08-17T13:10:06Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1039314444,
+        "push_id": 26187333436,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "ff05157c982ed8a188e5077aa2215acfeb5ec120",
+        "before": "f4ab3fbd0d2ed41adb62e1f4897b83306ae96b03",
+        "commits": [
+          {
+            "sha": "ff05157c982ed8a188e5077aa2215acfeb5ec120",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(classfile): parser do Constant Pool (Parte 1) com testes e comparação parcial javap",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM/commits/ff05157c982ed8a188e5077aa2215acfeb5ec120"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53449476838",
+      "type": "CreateEvent",
+      "created_at": "2025-08-17T00:35:25Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "53449228610",
+      "type": "CreateEvent",
+      "created_at": "2025-08-17T00:10:48Z",
+      "repo": {
+        "name": "Mathweuzz/CapivaraVM",
+        "url": "https://api.github.com/repos/Mathweuzz/CapivaraVM"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "ref": null,
+        "ref_type": "repository",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "53387555061",
+      "type": "PushEvent",
+      "created_at": "2025-08-14T20:36:48Z",
+      "repo": {
+        "name": "Mathweuzz/Andorinha-Jobs",
+        "url": "https://api.github.com/repos/Mathweuzz/Andorinha-Jobs"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1038124073,
+        "push_id": 26147265390,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "a10f50bdea0687d00f09eb70ad1948da65684376",
+        "before": "aec7683a1e215ff1db4f4dfc31deedae616a06b4",
+        "commits": [
+          {
+            "sha": "a10f50bdea0687d00f09eb70ad1948da65684376",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "fix(queue): extend_lease soma ao vencimento atual em vez de recalcular desde 'agora'",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Andorinha-Jobs/commits/a10f50bdea0687d00f09eb70ad1948da65684376"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53386910148",
+      "type": "PushEvent",
+      "created_at": "2025-08-14T20:18:52Z",
+      "repo": {
+        "name": "Mathweuzz/Andorinha-Jobs",
+        "url": "https://api.github.com/repos/Mathweuzz/Andorinha-Jobs"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1038124073,
+        "push_id": 26146963017,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "aec7683a1e215ff1db4f4dfc31deedae616a06b4",
+        "before": "966ce68a35ad199ecfa7cabe3a4f1716228c7fa6",
+        "commits": [
+          {
+            "sha": "aec7683a1e215ff1db4f4dfc31deedae616a06b4",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(queue): enqueue/dequeue com lease atômico, extend_lease e release; respeito a prioridade, agendamento e expiração de leases",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Andorinha-Jobs/commits/aec7683a1e215ff1db4f4dfc31deedae616a06b4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53338276050",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T21:39:53Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26123582089,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "ee58264e4f3826ffb6d5e7f7527e65c2949a5b06",
+        "before": "2ac15c43e95b45fccebc6c45f2af01870768008b",
+        "commits": [
+          {
+            "sha": "ee58264e4f3826ffb6d5e7f7527e65c2949a5b06",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "docs: README detalhado (instalação, migrações, rotas, segurança, logs, troubleshooting) + .env.example",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/ee58264e4f3826ffb6d5e7f7527e65c2949a5b06"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53338028348",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T21:31:44Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26123461619,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "2ac15c43e95b45fccebc6c45f2af01870768008b",
+        "before": "f2826737fe957f0fee65b84aabf56b8ac4e0dbb2",
+        "commits": [
+          {
+            "sha": "2ac15c43e95b45fccebc6c45f2af01870768008b",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(ui): layout base com navbar, flashes e CSS leve; páginas de login/registro revistas",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/2ac15c43e95b45fccebc6c45f2af01870768008b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53337674537",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T21:20:21Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26123289700,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "f2826737fe957f0fee65b84aabf56b8ac4e0dbb2",
+        "before": "ca922c850e8503b521f23e76b7f9feacc1d6e899",
+        "commits": [
+          {
+            "sha": "f2826737fe957f0fee65b84aabf56b8ac4e0dbb2",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "fix(auth): login_required limpa sessão órfã e exige g.user carregado (corrige TypeError no dashboard)",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/f2826737fe957f0fee65b84aabf56b8ac4e0dbb2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53337661278",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T21:19:57Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26123282976,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "ca922c850e8503b521f23e76b7f9feacc1d6e899",
+        "before": "639ca0f6966aab72e34820e7a72601a8cf8aa76c",
+        "commits": [
+          {
+            "sha": "ca922c850e8503b521f23e76b7f9feacc1d6e899",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "chore(db): migrações SQLite com CLI (status, upgrade, history, baseline) e due_date em assignments",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/ca922c850e8503b521f23e76b7f9feacc1d6e899"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53337286626",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T21:08:31Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26123100602,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "639ca0f6966aab72e34820e7a72601a8cf8aa76c",
+        "before": "0583f21c418b734feeb9999ec8eca98bc4a9c33e",
+        "commits": [
+          {
+            "sha": "639ca0f6966aab72e34820e7a72601a8cf8aa76c",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "chore(logging): access log com req_id e tempo de resposta; X-Request-ID em todas respostas",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/639ca0f6966aab72e34820e7a72601a8cf8aa76c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53337119696",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T21:03:39Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26123021141,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "0583f21c418b734feeb9999ec8eca98bc4a9c33e",
+        "before": "6d2e0fe95ce2ad5067b4f51dc2ef43e7b3de0128",
+        "commits": [
+          {
+            "sha": "0583f21c418b734feeb9999ec8eca98bc4a9c33e",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "chore(security): headers, cookies, rate limit simples e validações de tamanho; erros 403/429",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/0583f21c418b734feeb9999ec8eca98bc4a9c33e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53336700417",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T20:52:03Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26122819860,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "6d2e0fe95ce2ad5067b4f51dc2ef43e7b3de0128",
+        "before": "fee6ed0afdd5121ffa1a14bd5921d8348b1fca38",
+        "commits": [
+          {
+            "sha": "6d2e0fe95ce2ad5067b4f51dc2ef43e7b3de0128",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(assignments): criação de tarefas, envios com anexo, avaliação e boletim do aluno",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/6d2e0fe95ce2ad5067b4f51dc2ef43e7b3de0128"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53336200143",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T20:38:17Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26122589567,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "fee6ed0afdd5121ffa1a14bd5921d8348b1fca38",
+        "before": "be4f6c1b7bca534fb2910b30eee9aada10343a78",
+        "commits": [
+          {
+            "sha": "fee6ed0afdd5121ffa1a14bd5921d8348b1fca38",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(notices): mural do curso (criar e ler avisos) e integração na página do curso",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/fee6ed0afdd5121ffa1a14bd5921d8348b1fca38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53335725555",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T20:25:33Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26122369109,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "be4f6c1b7bca534fb2910b30eee9aada10343a78",
+        "before": "7ad2f2beecd8955a0df27ee919c5cafc7bd9ec30",
+        "commits": [
+          {
+            "sha": "be4f6c1b7bca534fb2910b30eee9aada10343a78",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(lessons): CRUD de aulas com upload de anexo e integrações no curso",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/be4f6c1b7bca534fb2910b30eee9aada10343a78"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53335334747",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T20:14:59Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26122185661,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "7ad2f2beecd8955a0df27ee919c5cafc7bd9ec30",
+        "before": "d101351d4d3e9a776c83a111b3a7b5fc4e9b6614",
+        "commits": [
+          {
+            "sha": "7ad2f2beecd8955a0df27ee919c5cafc7bd9ec30",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "fix(app): usar UPLOAD_FOLDER no log (corrige KeyError UPLOADS_DIR)",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/7ad2f2beecd8955a0df27ee919c5cafc7bd9ec30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53334743123",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T20:00:06Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26121913558,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "d101351d4d3e9a776c83a111b3a7b5fc4e9b6614",
+        "before": "30410b1dae617634e18cbd129984910a44d1d91f",
+        "commits": [
+          {
+            "sha": "d101351d4d3e9a776c83a111b3a7b5fc4e9b6614",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(ux): base layout, navbar, flashes, dashboard e páginas de erro",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/d101351d4d3e9a776c83a111b3a7b5fc4e9b6614"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53334231319",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T19:46:27Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26121677054,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "30410b1dae617634e18cbd129984910a44d1d91f",
+        "before": "4bdbb9a2cb543c7de927f398c6779a416e80879d",
+        "commits": [
+          {
+            "sha": "30410b1dae617634e18cbd129984910a44d1d91f",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(auth): cadastro/login/logout com hash e CSRF caseiro",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/30410b1dae617634e18cbd129984910a44d1d91f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53332211374",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T18:53:49Z",
+      "repo": {
+        "name": "Mathweuzz/Ip-LMS",
+        "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1036689947,
+        "push_id": 26120724591,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "4bdbb9a2cb543c7de927f398c6779a416e80879d",
+        "before": "6332dd8ee2f2b438f62b83530d0abd27170f938a",
+        "commits": [
+          {
+            "sha": "4bdbb9a2cb543c7de927f398c6779a416e80879d",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(db): helpers sqlite3, schema inicial e comando CLI init-db",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/Ip-LMS/commits/4bdbb9a2cb543c7de927f398c6779a416e80879d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53318201885",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T13:50:13Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26114116462,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "270aa29eb75649969f5e08b65a584d54615d9186",
+        "before": "51f10ea1145f866c5a4e6d5a19961146ea036f61",
+        "commits": [
+          {
+            "sha": "270aa29eb75649969f5e08b65a584d54615d9186",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(api): adicionar endpoints JSON",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/270aa29eb75649969f5e08b65a584d54615d9186"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53318009175",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T13:46:43Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26114028310,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "51f10ea1145f866c5a4e6d5a19961146ea036f61",
+        "before": "857cb06e7bdfb3af35a81c3128dce1eb8f278177",
+        "commits": [
+          {
+            "sha": "51f10ea1145f866c5a4e6d5a19961146ea036f61",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(api): endpoints JSON (POST/GET) com Bearer token e rate limit; pronto p/ quick tunnel",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/51f10ea1145f866c5a4e6d5a19961146ea036f61"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53317886410",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T13:44:27Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26113971380,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "857cb06e7bdfb3af35a81c3128dce1eb8f278177",
+        "before": "031da91c1713acedcbc39fae1ffd4bfde9db357b",
+        "commits": [
+          {
+            "sha": "857cb06e7bdfb3af35a81c3128dce1eb8f278177",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(api): endpoints JSON (POST/GET) com Bearer token e rate limit; pronto p/ quick tunnel",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/857cb06e7bdfb3af35a81c3128dce1eb8f278177"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53316948025",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T13:27:10Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26113536829,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "031da91c1713acedcbc39fae1ffd4bfde9db357b",
+        "before": "e4873f8d62cda0d2543db6ff91c7cb8e85387630",
+        "commits": [
+          {
+            "sha": "031da91c1713acedcbc39fae1ffd4bfde9db357b",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(config+logs): carga de config por JSON/env e logging (app + access) em stdout e var/app.log",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/031da91c1713acedcbc39fae1ffd4bfde9db357b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53316424357",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T13:17:23Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26113286107,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "e4873f8d62cda0d2543db6ff91c7cb8e85387630",
+        "before": "6258986cc090a01dbc704f5a44a966d61aa058cd",
+        "commits": [
+          {
+            "sha": "e4873f8d62cda0d2543db6ff91c7cb8e85387630",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(ux): busca e paginação no admin, botão copiar link curto e melhorias de UI",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/e4873f8d62cda0d2543db6ff91c7cb8e85387630"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53315669565",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T13:03:19Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26112922607,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "6258986cc090a01dbc704f5a44a966d61aa058cd",
+        "before": "1a2cb8554351ae4c9809c65d8779cb093e7dc1ed",
+        "commits": [
+          {
+            "sha": "6258986cc090a01dbc704f5a44a966d61aa058cd",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(security): CSRF caseiro, rate limit por IP, limite de payload e cabeçalhos",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/6258986cc090a01dbc704f5a44a966d61aa058cd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53314984352",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T12:50:09Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26112592940,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "1a2cb8554351ae4c9809c65d8779cb093e7dc1ed",
+        "before": "77f9deac19f520ea4dfc94b173f104dc9a637903",
+        "commits": [
+          {
+            "sha": "1a2cb8554351ae4c9809c65d8779cb093e7dc1ed",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(admin): lista com totais e detalhe por dia com filtros de data",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/1a2cb8554351ae4c9809c65d8779cb093e7dc1ed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53314513453",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T12:40:38Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26112361221,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "77f9deac19f520ea4dfc94b173f104dc9a637903",
+        "before": "2aeaf7d7041433b093f7acd3107959ca57f5c624",
+        "commits": [
+          {
+            "sha": "77f9deac19f520ea4dfc94b173f104dc9a637903",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(redirect): registrar clique e redirecionar 301/302 com Cache-Control apropriado",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/77f9deac19f520ea4dfc94b173f104dc9a637903"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53313856952",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T12:27:31Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26112045843,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "2aeaf7d7041433b093f7acd3107959ca57f5c624",
+        "before": "74d78d00c28c34e0cb19f5378a583ef10d7f6f9c",
+        "commits": [
+          {
+            "sha": "2aeaf7d7041433b093f7acd3107959ca57f5c624",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(public): criação de links com validação, slug base62 e listagem recente",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/2aeaf7d7041433b093f7acd3107959ca57f5c624"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53312035129",
+      "type": "PushEvent",
+      "created_at": "2025-08-13T11:49:05Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1037302713,
+        "push_id": 26111172466,
+        "size": 2,
+        "distinct_size": 2,
+        "ref": "refs/heads/main",
+        "head": "74d78d00c28c34e0cb19f5378a583ef10d7f6f9c",
+        "before": "54626c25f45becbcc8f5cc9abf2ee42272fb9be1",
+        "commits": [
+          {
+            "sha": "36e720ee731feb9c5b4ccde477fea53748d9da57",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "fix(public): garantir retorno da view public.index com render_template",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/36e720ee731feb9c5b4ccde477fea53748d9da57"
+          },
+          {
+            "sha": "74d78d00c28c34e0cb19f5378a583ef10d7f6f9c",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(db): schema sqlite3 e CLI init-db; conexão por request e teardown",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/UrlShortener/commits/74d78d00c28c34e0cb19f5378a583ef10d7f6f9c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53310747681",
+      "type": "CreateEvent",
+      "created_at": "2025-08-13T11:19:57Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "53310714460",
+      "type": "CreateEvent",
+      "created_at": "2025-08-13T11:19:11Z",
+      "repo": {
+        "name": "Mathweuzz/UrlShortener",
+        "url": "https://api.github.com/repos/Mathweuzz/UrlShortener"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "ref": null,
+        "ref_type": "repository",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      }
+    },
+    {
+      "id": "53181259835",
+      "type": "PushEvent",
+      "created_at": "2025-08-11T00:12:42Z",
+      "repo": {
+        "name": "Mathweuzz/brasa-http",
+        "url": "https://api.github.com/repos/Mathweuzz/brasa-http"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1035587276,
+        "push_id": 26048838410,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "c43318907ca46c0e348974d2cf66b531cc327cd3",
+        "before": "563d9cf88b96d1eb26179c9b461c7740ee54023f",
+        "commits": [
+          {
+            "sha": "c43318907ca46c0e348974d2cf66b531cc327cd3",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(ninissa): tema romântico, home e mural de recados com sqlite",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/brasa-http/commits/c43318907ca46c0e348974d2cf66b531cc327cd3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53180263686",
+      "type": "PushEvent",
+      "created_at": "2025-08-10T22:50:23Z",
+      "repo": {
+        "name": "Mathweuzz/brasa-http",
+        "url": "https://api.github.com/repos/Mathweuzz/brasa-http"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1035587276,
+        "push_id": 26048224902,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "563d9cf88b96d1eb26179c9b461c7740ee54023f",
+        "before": "bbad55499bde709c219f152c8000c527384a4377",
+        "commits": [
+          {
+            "sha": "563d9cf88b96d1eb26179c9b461c7740ee54023f",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(tls): HTTPS local com ssl (cert autossinado), cookies Secure quando HTTPS",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/brasa-http/commits/563d9cf88b96d1eb26179c9b461c7740ee54023f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53180154492",
+      "type": "PushEvent",
+      "created_at": "2025-08-10T22:41:09Z",
+      "repo": {
+        "name": "Mathweuzz/brasa-http",
+        "url": "https://api.github.com/repos/Mathweuzz/brasa-http"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1035587276,
+        "push_id": 26048158873,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "bbad55499bde709c219f152c8000c527384a4377",
+        "before": "0a6a13673d009d8ac4fea1322c663214745c7c83",
+        "commits": [
+          {
+            "sha": "bbad55499bde709c219f152c8000c527384a4377",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "tweak(gzip): reduz limiar de compressão para páginas dinâmicas",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/brasa-http/commits/bbad55499bde709c219f152c8000c527384a4377"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53179934301",
+      "type": "PushEvent",
+      "created_at": "2025-08-10T22:24:14Z",
+      "repo": {
+        "name": "Mathweuzz/brasa-http",
+        "url": "https://api.github.com/repos/Mathweuzz/brasa-http"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1035587276,
+        "push_id": 26048013643,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "0a6a13673d009d8ac4fea1322c663214745c7c83",
+        "before": "4fb9c64580e8dde1f20925edd18badf27c6a8705",
+        "commits": [
+          {
+            "sha": "0a6a13673d009d8ac4fea1322c663214745c7c83",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(config+logging): loader de config JSON/env e logging com arquivos rotativos (app+access)",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/brasa-http/commits/0a6a13673d009d8ac4fea1322c663214745c7c83"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53179794559",
+      "type": "PushEvent",
+      "created_at": "2025-08-10T22:12:48Z",
+      "repo": {
+        "name": "Mathweuzz/brasa-http",
+        "url": "https://api.github.com/repos/Mathweuzz/brasa-http"
+      },
+      "actor": {
+        "login": "Mathweuzz",
+        "display_login": "Mathweuzz",
+        "url": "https://api.github.com/users/Mathweuzz"
+      },
+      "payload": {
+        "repository_id": 1035587276,
+        "push_id": 26047925538,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "4fb9c64580e8dde1f20925edd18badf27c6a8705",
+        "before": "2c779f415dcbe2cc0ea2f46b10791f53be4d22d9",
+        "commits": [
+          {
+            "sha": "4fb9c64580e8dde1f20925edd18badf27c6a8705",
+            "author": {
+              "email": "mathweuzz@gmail.com",
+              "name": "mateus"
+            },
+            "message": "feat(db): sqlite3 com WAL; salva POST /eco e lista em /eco/list",
+            "distinct": true,
+            "url": "https://api.github.com/repos/Mathweuzz/brasa-http/commits/4fb9c64580e8dde1f20925edd18badf27c6a8705"
+          }
+        ]
+      }
+    }
+  ],
+  "prs": [
+    {
+      "id": 2990712924,
+      "number": 11,
+      "title": "feat: Implementa Overhaul Completo do Intruder",
+      "state": "open",
+      "html_url": "https://github.com/Matheus2608/intruder/pull/11",
+      "repository_url": "https://api.github.com/repos/Matheus2608/intruder",
+      "created_at": "2025-04-12T20:48:10Z",
+      "updated_at": "2025-04-12T21:19:30Z",
+      "closed_at": null,
+      "merged_at": null,
+      "user": {
+        "login": "Mathweuzz"
+      }
+    }
+  ],
+  "pinned": []
+}
