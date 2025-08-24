@@ -1,0 +1,47 @@
+---
+import Card from "./Card.astro";
+
+interface Props {
+  limit?: number; // quantos arquivos de highlights mostrar
+}
+const { limit = 3 } = Astro.props as Props;
+
+// Carrega todos os MDs de highlights
+const mods = await Astro.glob("../content/highlights/*.md");
+
+// Normaliza semana para ordenação
+function weekKey(m: any): string {
+  // tenta frontmatter.week (YYYY-WW), senão derive do caminho
+  return (m.frontmatter?.week as string) ??
+         (m.file?.match(/(\d{4}-\d{2})\.md$/)?.[1] ?? "0000-00");
+}
+
+// Ordena desc por semana
+const sorted = mods.sort((a, b) => weekKey(b).localeCompare(weekKey(a)));
+const latest = sorted.slice(0, limit);
+---
+
+<section aria-labelledby="hl-title" class="py-8">
+  <h2 id="hl-title" class="font-display text-gradient">Destaques recentes</h2>
+  {latest.length === 0 ? (
+    <p class="mt-4 text-slate-300">Sem destaques gerados ainda. Rode <code>pnpm summarize:ai</code>.</p>
+  ) : (
+    <div class="mt-6 grid gap-6 md:grid-cols-2">
+      {latest.map((m) => (
+        <Card class="p-6">
+          <header class="mb-3">
+            <h3 class="text-slate-100 font-semibold">
+              {m.frontmatter?.title ?? `Destaques — ${weekKey(m)}`}
+            </h3>
+            <p class="text-sm text-slate-400">
+              Semana {m.frontmatter?.week ?? weekKey(m)}
+            </p>
+          </header>
+          <div class="prose prose-invert max-w-none">
+            <m.Content />
+          </div>
+        </Card>
+      ))}
+    </div>
+  )}
+</section>

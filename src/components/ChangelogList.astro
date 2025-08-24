@@ -1,0 +1,35 @@
+---
+import Card from "./Card.astro";
+
+// Carrega todos os MDs de changelog
+const mods = await Astro.glob("../content/changelog/*.md");
+
+function weekKey(m: any): string {
+  return (m.frontmatter?.week as string) ??
+         (m.file?.match(/(\d{4}-\d{2})\.md$/)?.[1] ?? "0000-00");
+}
+
+const sorted = mods.sort((a, b) => weekKey(b).localeCompare(weekKey(a)));
+const latest = sorted[0];
+---
+
+<section aria-labelledby="cl-title" class="py-8">
+  <h2 id="cl-title" class="font-display text-gradient">Changelog semanal</h2>
+  {latest ? (
+    <Card class="p-6">
+      <header class="mb-3">
+        <h3 class="text-slate-100 font-semibold">
+          {latest.frontmatter?.title ?? `Changelog — ${weekKey(latest)}`}
+        </h3>
+        <p class="text-sm text-slate-400">
+          Semana {latest.frontmatter?.week ?? weekKey(latest)}
+        </p>
+      </header>
+      <div class="prose prose-invert max-w-none">
+        <latest.Content />
+      </div>
+    </Card>
+  ) : (
+    <p class="mt-4 text-slate-300">Sem changelog gerado ainda. Rode <code>pnpm summarize:ai</code>.</p>
+  )}
+</section>
