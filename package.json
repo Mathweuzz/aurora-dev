@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20.0.0" },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview --host",
     "astro": "astro",
-    "fetch:github": "tsx scripts/fetch-github.mts"
+    "fetch:github": "tsx scripts/fetch-github.mts",
+    "summarize:ai": "tsx scripts/summarize-ai.mts"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20.12.12",
     "astro": "^4.14.0",
     "autoprefixer": "^10.4.20",
