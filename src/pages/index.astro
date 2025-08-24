@@ -5,6 +5,11 @@ import Hero from "../components/Hero.astro";
 import Container from "../components/Container.astro";
 import Section from "../components/Section.astro";
 import Card from "../components/Card.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import { PROJECTS, type Project } from "../lib/utils";
+
+const featured = PROJECTS.filter(p => p.featured).slice(0, 6);
+const base = import.meta.env.BASE_URL; // ex.: "/aurora-dev/"
 ---
 <Base title="Aurora.dev — Início" description="Portfólio com IA, Astro + Tailwind">
   <Hero />
@@ -20,6 +25,17 @@ import Card from "../components/Card.astro";
           <h3 class="font-semibold text-slate-100">Pronto para IA</h3>
           <p class="mt-2 text-slate-300">Scripts de ingestão/IA virão nos próximos passos, pré-gerados em Actions.</p>
         </Card>
+      </div>
+    </Section>
+
+    <Section id="destaques" title="Projetos em destaque" subtitle="Uma amostra. Veja todos na página de projetos.">
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {featured.map((p: Project) => (
+          <ProjectCard project={p} />
+        ))}
+      </div>
+      <div class="mt-8">
+        <a href={`${base}projetos`} class="btn">Ver todos os projetos</a>
       </div>
     </Section>
   </Container>

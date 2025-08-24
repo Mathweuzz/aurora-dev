@@ -1,0 +1,91 @@
+---
+import type { Project } from "../lib/utils";
+const { project } = Astro.props as { project: Project };
+
+// Base do GitHub Pages (ex.: "/aurora-dev/"), sempre com barra no fim
+const base = import.meta.env.BASE_URL;
+
+function withBase(p?: string) {
+  // Se não houver caminho, usa placeholder
+  if (!p || p.length === 0) return `${base}placeholder.svg`;
+  // Remover "/" inicial pra evitar "//"
+  const clean = p.startsWith('/') ? p.slice(1) : p;
+  return `${base}${clean}`;
+}
+
+const coverPath = (project.cover && project.cover.length > 0) ? project.cover : "placeholder.svg";
+const coverUrl = withBase(coverPath);
+
+const repoUrl = project.repo ? `https://github.com/${project.repo}` : null;
+const homeUrl = project.homepage && project.homepage.length > 0 ? project.homepage : repoUrl;
+---
+
+<article
+  class="group relative glass overflow-hidden transition will-change-transform"
+  style="transform: perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg))"
+  aria-label={`Projeto: ${project.name}`}
+>
+  <!-- Cover -->
+  <div class="relative aspect-[16/9] w-full overflow-hidden">
+    <img
+      src={coverUrl}
+      alt={`Capa do projeto ${project.name}`}
+      class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+      loading="lazy"
+      decoding="async"
+    />
+    {project.featured && (
+      <span class="absolute left-3 top-3 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/90 border border-white/15">
+        Destaque
+      </span>
+    )}
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="p-6">
+    <h3 class="font-display text-lg text-slate-100">
+      {homeUrl ? <a href={homeUrl} class="hover:underline">{project.name}</a> : project.name}
+    </h3>
+    <p class="mt-2 text-slate-300">{project.description}</p>
+
+    <div class="mt-4 flex flex-wrap gap-2">
+      {project.tags?.map((t) => (
+        <span class="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-slate-200">
+          {t}
+        </span>
+      ))}
+    </div>
+
+    <div class="mt-4 flex items-center gap-3">
+      {repoUrl && (
+        <a href={repoUrl} class="btn" aria-label={`Abrir repositório ${project.name}`}>
+          <svg width="16" height="16" viewBox="0 0 24 24" class="opacity-80"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.8-1.5-3.8-1.5-.6-1.4-1.3-1.7-1.3-1.7-1-.6.1-.6.1-.6 1.2.1 1.9 1.2 1.9 1.2 1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-6a4.7 4.7 0 0 1 1.3-3.3c-.1-.3-.6-1.7.1-3.6 0 0 1-.3 3.4 1.2a11.7 11.7 0 0 1 6.2 0c2.3-1.5 3.4-1.2 3.4-1.2.7 1.9.3 3.3.1 3.6a4.7 4.7 0 0 1 1.3 3.3c0 4.7-2.7 5.6-5.3 5.9.4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+          Código
+        </a>
+      )}
+      {homeUrl && homeUrl !== repoUrl && (
+        <a href={homeUrl} class="btn" aria-label={`Abrir site ${project.name}`}>Site</a>
+      )}
+    </div>
+  </div>
+
+  <!-- Tilt (desliga com prefers-reduced-motion) -->
+  <script is:inline>
+    const card = document.currentScript.closest('article');
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!media.matches) {
+      const max = 8;
+      card.addEventListener('pointermove', (e) => {
+        const r = card.getBoundingClientRect();
+        const px = (e.clientX - r.left) / r.width - 0.5;
+        const py = (e.clientY - r.top) / r.height - 0.5;
+        card.style.setProperty('--ry', `${(-px * max).toFixed(2)}deg`);
+        card.style.setProperty('--rx', `${(py * max).toFixed(2)}deg`);
+      });
+      card.addEventListener('pointerleave', () => {
+        card.style.setProperty('--ry', `0deg`);
+        card.style.setProperty('--rx', `0deg`);
+      });
+    }
+  </script>
+</article>

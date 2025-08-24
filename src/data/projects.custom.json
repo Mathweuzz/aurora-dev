@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "aurora-dev",
+    "name": "Aurora.dev (este site)",
+    "description": "Portfólio com IA em Astro + Tailwind + GitHub Actions + Pages.",
+    "tags": ["astro", "tailwind", "github-actions", "portfolio"],
+    "repo": "Mathweuzz/aurora-dev",
+    "homepage": "https://Mathweuzz.github.io/aurora-dev/",
+    "featured": true,
+    "cover": "",
+    "updatedAt": "2025-08-20"
+  },
+  {
+    "slug": "andorinha-jobs",
+    "name": "Andorinha — Orquestrador de Jobs",
+    "description": "Fila, leasing de jobs, retries, priorização e workers em Node/TS.",
+    "tags": ["node", "typescript", "queue", "distributed"],
+    "repo": "Mathweuzz/andorinha-jobs",
+    "homepage": "",
+    "featured": true,
+    "cover": "",
+    "updatedAt": "2025-08-14"
+  },
+  {
+    "slug": "capivara-vm",
+    "name": "CapivaraVM — JVM em Python",
+    "description": "Experimento educacional: parsing de classfile e execução parcial.",
+    "tags": ["python", "vm", "compilers"],
+    "repo": "Mathweuzz/capivaravm",
+    "homepage": "",
+    "featured": false,
+    "cover": "",
+    "updatedAt": "2025-08-10"
+  },
+  {
+    "slug": "olharfixo-cv",
+    "name": "OlharFixoCV — Eye contact tracker",
+    "description": "OpenCV: manter o olhar na câmera com correções em tempo real.",
+    "tags": ["opencv", "python", "computer-vision"],
+    "repo": "Mathweuzz/olharfixo-cv",
+    "homepage": "",
+    "featured": false,
+    "cover": "",
+    "updatedAt": "2025-08-19"
+  },
+  {
+    "slug": "urlshort",
+    "name": "URLshort — Encurtador com analytics",
+    "description": "Flask + sqlite3 + Jinja, deploy simples e instrumentação.",
+    "tags": ["python", "flask", "sqlite"],
+    "repo": "Mathweuzz/urlshort",
+    "homepage": "",
+    "featured": true,
+    "cover": "",
+    "updatedAt": "2025-08-05"
+  },
+  {
+    "slug": "ipelms",
+    "name": "IpêLMS — Plataforma educacional",
+    "description": "Protótipo LMS com Flask, autenticação e módulos básicos.",
+    "tags": ["python", "flask", "education"],
+    "repo": "Mathweuzz/ipelms",
+    "homepage": "",
+    "featured": false,
+    "cover": "",
+    "updatedAt": "2025-07-30"
+  }
+]

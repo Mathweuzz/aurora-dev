@@ -1,0 +1,137 @@
+---
+import Base from "../layouts/Base.astro";
+import "../styles/global.css";
+import Container from "../components/Container.astro";
+import Section from "../components/Section.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import { PROJECTS, getAllTags, type Project } from "../lib/utils";
+
+const allTags = getAllTags(PROJECTS);
+---
+
+<Base title="Projetos — Aurora.dev" description="Grid de projetos com filtros e busca.">
+  <Container>
+    <Section id="projetos" title="Projetos" subtitle="Filtre por tags e pesquise pelo nome ou descrição.">
+      <div class="glass p-4 md:p-6">
+        <form id="filters" class="grid gap-4 md:grid-cols-[1fr_auto] md:items-center">
+          <label class="block">
+            <span class="sr-only">Buscar</span>
+            <input
+              id="q" name="q" type="search" placeholder="Buscar projetos..."
+              class="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-slate-100 placeholder:text-slate-400"
+              aria-label="Buscar projetos"
+            />
+          </label>
+          <div class="flex items-center gap-3">
+            <button type="reset" class="btn" aria-label="Limpar filtros">Limpar</button>
+          </div>
+
+          <div class="md:col-span-2">
+            <div class="flex flex-wrap gap-2" role="listbox" aria-label="Tags de filtro">
+              {allTags.map((t) => (
+                <button
+                  type="button"
+                  class="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-slate-200 data-[active=true]:bg-indigo-500/20 data-[active=true]:text-indigo-200"
+                  data-tag={t}
+                  aria-pressed="false"
+                >
+                  #{t}
+                </button>
+              ))}
+            </div>
+          </div>
+        </form>
+        <div class="mt-4 text-sm text-slate-300" id="results-count" aria-live="polite">
+          {PROJECTS.length} projeto(s)
+        </div>
+      </div>
+
+      <div id="grid" class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {PROJECTS.map((p: Project) => (
+          <div
+            class="project"
+            data-name={p.name.toLowerCase()}
+            data-desc={p.description.toLowerCase()}
+            data-tags={p.tags?.join(",")}
+          >
+            <ProjectCard project={p} />
+          </div>
+        ))}
+      </div>
+    </Section>
+  </Container>
+
+  <script is:inline>
+    const $ = (s, r = document) => r.querySelector(s);
+    const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+
+    const input = $("#q");
+    const tagButtons = $$("[data-tag]"); // ✅ corrigido
+    const grid = $("#grid");
+    const count = $("#results-count");
+    const selected = new Set();
+
+    const params = new URLSearchParams(location.search);
+    if (params.get("q")) input.value = params.get("q");
+    const initialTags = (params.get("tags") || "").split(",").filter(Boolean);
+    initialTags.forEach(t => {
+      selected.add(t);
+      const btn = tagButtons.find(b => b.dataset.tag === t);
+      if (btn) { btn.dataset.active = "true"; btn.setAttribute("aria-pressed", "true"); }
+    });
+
+    function applyFilters() {
+      const q = input.value.trim().toLowerCase();
+      const tags = Array.from(selected);
+
+      const items = $$(".project", grid);
+      let visible = 0;
+
+      items.forEach(el => {
+        const name = el.dataset.name || "";
+        const desc = el.dataset.desc || "";
+        const ptags = (el.dataset.tags || "").split(",");
+        const textMatch = !q || name.includes(q) || desc.includes(q);
+        const tagMatch = tags.length === 0 || tags.every(t => ptags.includes(t));
+        const ok = textMatch && tagMatch;
+        el.style.display = ok ? "" : "none";
+        if (ok) visible++;
+      });
+
+      count.textContent = `${visible} projeto(s)`;
+
+      const url = new URL(location.href);
+      q ? url.searchParams.set("q", q) : url.searchParams.delete("q");
+      tags.length ? url.searchParams.set("tags", tags.join(",")) : url.searchParams.delete("tags");
+      history.replaceState(null, "", url.toString());
+    }
+
+    input.addEventListener("input", applyFilters);
+
+    tagButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const t = btn.dataset.tag;
+        if (selected.has(t)) {
+          selected.delete(t);
+          btn.dataset.active = "false";
+          btn.setAttribute("aria-pressed", "false");
+        } else {
+          selected.add(t);
+          btn.dataset.active = "true";
+          btn.setAttribute("aria-pressed", "true");
+        }
+        applyFilters();
+      });
+    });
+
+    $("#filters").addEventListener("reset", (e) => {
+      e.preventDefault();
+      input.value = "";
+      selected.clear();
+      tagButtons.forEach(b => { b.dataset.active = "false"; b.setAttribute("aria-pressed", "false"); });
+      applyFilters();
+    });
+
+    applyFilters();
+  </script>
+</Base>
