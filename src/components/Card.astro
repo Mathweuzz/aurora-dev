@@ -1,0 +1,6 @@
+---
+const { class: extra = '' } = Astro.props;
+---
+<article class={`glass transition duration-300 hover:-translate-y-0.5 ${extra}`}>
+  <slot />
+</article>

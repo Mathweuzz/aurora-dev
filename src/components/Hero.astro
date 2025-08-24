@@ -1,0 +1,35 @@
+---
+import Container from "./Container.astro";
+---
+<section class="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-indigo-500/10 to-violet-500/5 p-10 md:p-16 glass">
+  <!-- Sparkles / Acentos -->
+  <div class="pointer-events-none absolute -inset-24 opacity-70 blur-2xl">
+    <div class="absolute inset-0 bg-[radial-gradient(600px_300px_at_10%_10%,rgba(99,102,241,0.25),transparent_60%)]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(500px_250px_at_90%_0%,rgba(139,92,246,0.20),transparent_60%)]"></div>
+  </div>
+
+  <Container>
+    <div class="relative">
+      <h1 class="font-display text-gradient">
+        Aurora.dev — Meu Portfólio com IA
+      </h1>
+      <p class="mt-4 max-w-2xl text-slate-300">
+        Astro + Tailwind. Gradientes sutis, glassmorphism, micro-animações e base de acessibilidade.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="/aurora-dev/" class="btn focus-visible:ring-2">
+          Ver Home
+        </a>
+        <a href="#projetos" class="btn focus-visible:ring-2">
+          Projetos
+        </a>
+      </div>
+    </div>
+
+    <!-- Elemento decorativo com animação leve -->
+    <div class="pointer-events-none absolute right-6 top-6 hidden md:block">
+      <div class="h-28 w-28 rounded-3xl bg-gradient-to-br from-indigo-400/30 to-violet-400/30 blur-md animate-float"></div>
+    </div>
+  </Container>
+</section>

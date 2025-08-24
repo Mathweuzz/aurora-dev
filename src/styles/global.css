@@ -2,6 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base mínima em dark mode para o Passo 1 */
+/* Preferência por dark */
 :root { color-scheme: dark; }
-body { @apply bg-slate-950 text-slate-100 antialiased; }
+
+/* Tipografia base */
+html { @apply scroll-smooth; }
+body { @apply bg-slate-950 text-slate-100 antialiased font-sans; }
+
+/* Foco visível (A11y) */
+:focus-visible { @apply outline-none ring-2 ring-brand-400/60 ring-offset-2 ring-offset-slate-950; }
+
+/* Gradiente de texto utilitário */
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-violet-400;
+  }
+}
+
+/* Cartão glassmorphism */
+@layer components {
+  .glass {
+    @apply bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl shadow-glow;
+  }
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 font-medium transition
+           bg-white/10 hover:bg-white/15 border border-white/10 focus-visible:ring-brand-400/60;
+  }
+}
+
+/* Escalas fluidas simples */
+h1 { font-size: clamp(2.5rem, 7vw, 4.25rem); line-height: 1.05; }
+h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.1; }
+p  { font-size: clamp(1rem, 1.6vw, 1.125rem); }
+
+/* “Sparkles” de fundo leves usando gradientes radiais */
+.bg-aurora {
+  background:
+    var(--aurora1, radial-gradient(1200px 600px at 10% -10%, rgba(99,102,241,0.25), transparent 60%)),
+    var(--aurora2, radial-gradient(1000px 500px at 90% 0%, rgba(139,92,246,0.20), transparent 60%));
+}
+
+/* Shimmer utilitário (para futuros skeletons) */
+.shimmer {
+  background-image: linear-gradient(90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0.08) 50%,
+    rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2.25s infinite linear;
+}

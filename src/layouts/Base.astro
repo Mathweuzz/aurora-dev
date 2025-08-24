@@ -5,12 +5,24 @@ const { title = 'Aurora.dev', description = 'Meu Portfólio com IA' } = Astro.pr
 <html lang="pt-BR" class="dark">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#0f172a" />
     <title>{title}</title>
+
+    <!-- Fontes (rápidas e com display=swap). Alternativa local no Passo 8. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Spline+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="min-h-screen bg-slate-950 text-slate-100">
-    <main class="mx-auto max-w-5xl px-6 py-16">
+  <body class="min-h-screen bg-slate-950 text-slate-100 font-sans bg-aurora">
+    <main class="mx-auto max-w-6xl px-6 py-16">
       <slot />
     </main>
   </body>

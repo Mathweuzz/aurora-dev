@@ -1,14 +1,26 @@
 ---
 import Base from "../layouts/Base.astro";
 import "../styles/global.css";
+import Hero from "../components/Hero.astro";
+import Container from "../components/Container.astro";
+import Section from "../components/Section.astro";
+import Card from "../components/Card.astro";
 ---
-<Base title="Aurora.dev — Hello Aurora">
-  <section class="text-center">
-    <h1 class="text-5xl font-bold tracking-tight">
-      Hello <span class="text-indigo-400">Aurora</span> 🌌
-    </h1>
-    <p class="mt-4 text-slate-300">
-      Astro + Tailwind prontos. Deploy via GitHub Pages.
-    </p>
-  </section>
+<Base title="Aurora.dev — Início" description="Portfólio com IA, Astro + Tailwind">
+  <Hero />
+
+  <Container>
+    <Section id="agora" title="Agora" subtitle="O que estou fazendo neste momento">
+      <div class="grid gap-6 md:grid-cols-2">
+        <Card class="p-6">
+          <h3 class="font-semibold text-slate-100">Explorando o Design System</h3>
+          <p class="mt-2 text-slate-300">Gradientes, glassmorphism e animações leves estão ativos.</p>
+        </Card>
+        <Card class="p-6">
+          <h3 class="font-semibold text-slate-100">Pronto para IA</h3>
+          <p class="mt-2 text-slate-300">Scripts de ingestão/IA virão nos próximos passos, pré-gerados em Actions.</p>
+        </Card>
+      </div>
+    </Section>
+  </Container>
 </Base>
