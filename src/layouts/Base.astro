@@ -1,0 +1,17 @@
+---
+const { title = 'Aurora.dev', description = 'Meu Portfólio com IA' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100">
+    <main class="mx-auto max-w-5xl px-6 py-16">
+      <slot />
+    </main>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base mínima em dark mode para o Passo 1 */
+:root { color-scheme: dark; }
+body { @apply bg-slate-950 text-slate-100 antialiased; }
